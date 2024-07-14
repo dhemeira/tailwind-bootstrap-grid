@@ -7,7 +7,7 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Plugin to add Bootstrap grid classes into your Tailwind project.",
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   }

@@ -1,5 +1,5 @@
-const plugin = require('tailwindcss/plugin')
-const colCount = plugin(
+const plugin = require('tailwindcss/plugin');
+const bsGrid = plugin(
   ({ addComponents }) => {
     addComponents([
       {
@@ -87,5 +87,16 @@ const colCount = plugin(
       { '.g-5': { '@apply gx-5 gy-5': {} } },
     ]);
   },
-)
-module.exports = colCount
+  {
+    theme: {
+      screens: {
+        'sm': '576px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1200px',
+        '2xl': '1400px',
+      },
+    },
+  }
+);
+module.exports = bsGrid;
