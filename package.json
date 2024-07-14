@@ -1,14 +1,24 @@
 {
   "name": "@dhemeira/tailwind-bootstrap-grid",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "dhemeira (https://github.com/dhemeira)",
+  "license": "MIT",
   "description": "Plugin to add Bootstrap grid classes into your Tailwind project.",
   "devDependencies": {
     "tailwindcss": "^3.4.4"
-  }
+  },
+  "keywords": [
+    "tailwind",
+    "bootstrap",
+    "grid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhemeira/tailwind-bootstrap-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhemeira/tailwind-bootstrap-grid/issues"
+  },
+  "homepage": "https://github.com/dhemeira/tailwind-bootstrap-grid#readme"
 }
